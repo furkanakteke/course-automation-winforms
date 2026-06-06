@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C862C46-7C01-43F5-984A-3A908D3A8102}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>VeriTabaniOdev</RootNamespace>
+    <AssemblyName>VeriTabaniOdev</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BorcDurumu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorcDurumu.Designer.cs">
+      <DependentUpon>BorcDurumu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DersDuzen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DersDuzen.Designer.cs">
+      <DependentUpon>DersDuzen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DersProgrami.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DersProgrami.Designer.cs">
+      <DependentUpon>DersProgrami.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DersProgramiGoruntule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DersProgramiGoruntule.Designer.cs">
+      <DependentUpon>DersProgramiGoruntule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Log.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log.Designer.cs">
+      <DependentUpon>Log.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciListesi.Designer.cs">
+      <DependentUpon>OgrenciListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgretmenDuzen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgretmenDuzen.Designer.cs">
+      <DependentUpon>OgretmenDuzen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgretmenGoruntule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgretmenGoruntule.Designer.cs">
+      <DependentUpon>OgretmenGoruntule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SinifDuzen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SinifDuzen.Designer.cs">
+      <DependentUpon>SinifDuzen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YetkiliGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YetkiliGiris.Designer.cs">
+      <DependentUpon>YetkiliGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YetkiliAnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YetkiliAnaSayfa.Designer.cs">
+      <DependentUpon>YetkiliAnaSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotGiris.Designer.cs">
+      <DependentUpon>NotGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciDuzen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciDuzen.Designer.cs">
+      <DependentUpon>OgrenciDuzen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciGoruntule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciGoruntule.Designer.cs">
+      <DependentUpon>OgrenciGoruntule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Yoklama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yoklama.Designer.cs">
+      <DependentUpon>Yoklama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YoklamaEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YoklamaEkle.Designer.cs">
+      <DependentUpon>YoklamaEkle.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BorcDurumu.resx">
+      <DependentUpon>BorcDurumu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DersDuzen.resx">
+      <DependentUpon>DersDuzen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DersProgrami.resx">
+      <DependentUpon>DersProgrami.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DersProgramiGoruntule.resx">
+      <DependentUpon>DersProgramiGoruntule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log.resx">
+      <DependentUpon>Log.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciListesi.resx">
+      <DependentUpon>OgrenciListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgretmenDuzen.resx">
+      <DependentUpon>OgretmenDuzen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgretmenGoruntule.resx">
+      <DependentUpon>OgretmenGoruntule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SinifDuzen.resx">
+      <DependentUpon>SinifDuzen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YetkiliGiris.resx">
+      <DependentUpon>YetkiliGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YetkiliAnaSayfa.resx">
+      <DependentUpon>YetkiliAnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotGiris.resx">
+      <DependentUpon>NotGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciDuzen.resx">
+      <DependentUpon>OgrenciDuzen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciGoruntule.resx">
+      <DependentUpon>OgrenciGoruntule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Yoklama.resx">
+      <DependentUpon>Yoklama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YoklamaEkle.resx">
+      <DependentUpon>YoklamaEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
